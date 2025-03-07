@@ -193,7 +193,7 @@ def get_progress_bar_string(pct):
     cFull = int(p // 10)
     p_str = "■" * cFull
     p_str += "▢" * (10 - cFull)
-    return f'<p><a href="https://t.me/TELLYMIRROR">{p_str}</a></p>'
+    return f'<p><a href="https://t.me/STARZLEECH">{p_str}</a></p>'
 
 
 async def get_readable_message(
@@ -204,7 +204,7 @@ async def get_readable_message(
         page_step=1
     ):
   ##  msg = "<a href="https://t.me/TELLYMIRROR"><b>⚡ POWERED BY TELLY MIRROR 🤖</b></a>\n"
-    msg = "<a href='https://t.me/TELLYMIRROR'>⚡ POWERED BY TELLY MIRROR 🤖</a>\n"
+    msg = "<a href='https://t.me/STARZLEECH'>⚡ POWERED BY STAR LEECH 🤖</a>\n"
     button = None
 
     tasks = await sync_to_async(
@@ -265,7 +265,7 @@ async def get_readable_message(
         #     )
 
         msg += (
-            f"\n<pre>#TellY{index + start_position} ❤🚀...(Processing)</pre>\n"
+            f"\n<pre>#Star{index + start_position} ❤🚀...(Processing)</pre>\n"
             f"Filename: {escape(f"{task.name()}")}\n"
         )
         if tstatus not in [
